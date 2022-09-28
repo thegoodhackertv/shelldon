@@ -2,7 +2,7 @@
 
 import sys
 import argparse
-import clipboard as c
+import pyperclip as c
 import subprocess
 from time import ctime
 from colorama import Fore, Style, init
