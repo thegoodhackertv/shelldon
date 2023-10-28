@@ -5,7 +5,10 @@ Tool inspired by [hoaxshell](https://github.com/t3l3machus/hoaxshell).  - Genera
 
 ## Usage
 
--todo
+1. Clone repo `git clone https://github.com/thegoodhackertv/shelldon.git`
+2. Change directory `cd shelldon`
+3. Install requirements `pip install -r requirements.txt`
+4. Run script `python3 shelldon.py`
 
 ## Disclaimer
 Usage of these scripts for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.
@@ -13,3 +16,7 @@ Usage of these scripts for attacking targets without prior mutual consent is ill
 ## Support
 [<img width=300 alt="patreon" src="https://pbs.twimg.com/media/DC4gjLRUMAAyQ92?format=jpg">](https://www.patreon.com/thegoodhacker)
 [<img width=250 alt="buymeacoffe" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png">](https://www.buymeacoffee.com/thegoodhacker)
+
+## TODO
+- Add optional AMSI Bypass.
+
